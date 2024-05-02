@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light+Two&family=Teko:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    background-color: black;
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+h1, p {
+    margin-top: 0;
+    text-align: center;
+    color: white;
+}
+
+input {
+    padding: 10px;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 100%;
+    outline: none;
+}
+
+input[type=number] {
+    appearance: textfield;
+}
+
+label {
+    color: white;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #222;
+}
+
+#total {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: white;
+}
+
+.return {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 20px;
+}

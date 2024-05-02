@@ -18,18 +18,5 @@ second - sans-serif = Mulish
 
 body {
     font-family: 'Inter', sans-serif;
-    background: #111;
-    color: beige;
-}
-
-.app-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.i-home {
-    font-size: 2rem;
-    margin-left: 1rem;
+    
 }
