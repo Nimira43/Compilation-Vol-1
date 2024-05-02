@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light+Two&family=Teko:wght@300..700&display=swap');
+
+
+body {
+	width: 100%;
+	height: 100vh;
+	font-family: 'Mulish', sans-serif;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.9),
+		rgba(0, 0, 0, 0.8)),
+		url('../../imgs/bg3.jpg') no-repeat center;
+	background-size: center;
+}
+
+div {
+	height: 35px;
+	width: 160px;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 10px;
+	color: beige;
+	border: none;
+	background-color: darkred;
+	line-height: 35px;
+	text-align: center;
+	transition: all 1s;
+}
+
+.background:hover {
+	background-color: red
+}
+
+.color:hover {
+	color: gold;
+}
+
+.font-size:hover {
+	font-size: 24px;
+}
+
+.height:hover {
+	height: 80px;
+}
+
+.width:hover {
+	width: 200px;
+}
+
+.letter-spacing:hover {
+	letter-spacing: 1px;
+}
+
+.line-height:hover {
+	line-height: 20px;
+}
+
+.margin-bottom:hover {
+	margin-bottom: 50px;
+}
+
+.margin-top:hover {
+	margin-top: 50px;
+}
+
+.opacity:hover {
+	opacity: .3;
+}
+
+.padding:hover {
+	padding: 20px;
+}
+
+.border-color, .border-width {
+	border: 6px solid beige;
+}
+
+.border-color:hover {
+	border-color: orangered;
+}
+
+.border-width:hover {
+	border-width: 12px;
+}
+
+.return {
+    position: absolute;
+	background-color: transparent;
+	text-transform: capitalize;
+    top: 50px;
+    right: 50px;
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 20px;
+}
