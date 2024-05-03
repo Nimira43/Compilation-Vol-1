@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light+Two&family=Teko:wght@300..700&display=swap');
+
+body {
+    background: radial-gradient(circle, skyblue, #89CFF0, #00539C);
+    font-family: 'Teko', monospace;       
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;    
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: red;
+    text-shadow: 1px 1px 0 white;
+}
+
+.timer {
+    font-size: 72px;
+    color: red;
+    text-shadow: 2px 2px 0 white;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+#start {
+    background-color: green;
+}
+
+#stop {
+    background-color: red;
+}
+
+#reset {
+    background-color: blue;
+}
+
+.return {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 20px;
+}

@@ -20,3 +20,17 @@ body {
     font-family: 'Inter', sans-serif;
     
 }
+
+.return {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 20px;
+}
