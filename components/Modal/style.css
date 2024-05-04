@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light+Two&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #eee; */
+}
+
+.open,
+.modal-btn {
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.35);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.2 ease-in-out;
+}
+
+.modal {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+    padding: 30px 50px;
+    width: 500px;
+}
+
+.modal h1,
+.modal p {
+    margin-bottom: 17px;
+}
+
+.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.return {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 20px;
+}
