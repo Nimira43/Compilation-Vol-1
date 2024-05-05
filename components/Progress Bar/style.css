@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Italianno&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Platypi:ital,wght@0,300..800;1,300..800&family=Shadows+Into+Light+Two&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.progress {
+    background-color: #222;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+}
+
+.progress-done {
+    background-color: #999;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0;
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.return {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.return a {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 5px 10px;
+    font-size: 20px;
+}
